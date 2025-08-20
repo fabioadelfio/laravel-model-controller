@@ -52,6 +52,9 @@
                                 @for($i = 0; $i < $emptyStars; $i++)
                                     <i class="bi bi-star"></i>
                                     @endfor
+                                    <span>
+                                        ({{ $movie->vote }}/10)
+                                    </span>
                         </div>
                     </div>
                 </div>
